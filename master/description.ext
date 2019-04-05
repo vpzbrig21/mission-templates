@@ -1,0 +1,36 @@
+/*
+    Author: sancron
+    File: description.ext
+    Unit: virtuelle Panzerbrigade 21
+    URL: https://vpzbrig21.de
+    License: APL-SA
+*/
+
+// Header
+class Header {
+    gameType = Sandbox;
+    minPlayers = 1;
+    maxPlayers = 99;
+};
+
+// Base informations
+author          = "Soro";
+onLoadName      = "Template Mission";
+onLoadMission   = "This is a base Template for mission design";
+loadScreen      = "core\img\loadScreen.paa";
+briefingName    = "Template Mission";
+
+// Base settings
+respawn = 3;
+respawnDelay = 10;
+respawnDialog = 0;
+respawnOnStart = -1;
+enableDebugConsole[] = {"76561198019947565"};
+disabledAI = 1;
+
+// Functions
+class CfgFunctions {
+    class pb21 {
+
+    };
+};
