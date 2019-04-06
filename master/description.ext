@@ -31,6 +31,25 @@ disabledAI = 1;
 // Functions
 class CfgFunctions {
     class pb21 {
+        class loadouts {
+            file = "core\fnc\loadouts"
+            class bundeswehr{};
+            class loadoutActionsBW{};
+        };
+    };
+};
 
+class Params {
+    class Camotype {
+        title = "Uniform Art";
+		texts[] = {"Flecktarn", "Tropentarn"};
+		values[] = {0, 1};
+		default = 0;
+    };
+    class Weapontype {
+        title = "Waffen Mod";
+		texts[] = {"BWMod G36A2", "NIArsenal G36A1", "NIArsenal G36A3"};
+		values[] = {0, 1, 2};
+		default = 0;
     };
 };
