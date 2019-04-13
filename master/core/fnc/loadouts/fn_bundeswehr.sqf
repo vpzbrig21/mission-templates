@@ -45,6 +45,7 @@ params [
     "_vestGrenadier",
     "_vestMarksmen",
     "_vestMachineGunner",
+    "_vsetAssMachineGunner",
     "_backpack1",
     "_backpack2",
     "_backpack3",
@@ -71,7 +72,7 @@ if (_camoType == 0) then {
     _vestGrenadier = "pbw_splitter_schtz";
     _vestMarksmen = "pbw_splitter_schtz";
     _vestMachineGunner = "pbw_splitter_mg";
-    _vsetAssMchineGunner = "pbw_splitter_mg_h";
+    _vsetAssMachineGunner = "pbw_splitter_mg_h";
     _backpack1 = "BWA3_FieldPack_Fleck";
     _backpack2 = "BWA3_FieldPack_Fleck";
     _backpack3 = "BWA3_Kitbag_Fleck_Medic";
@@ -155,7 +156,7 @@ switch (_unitLoadout) do {
     };
     // Rifleman MG2
     case ("mg2"): {
-        _unit setUnitLoadout [_mainWeapon,[],["BWA3_P8","","","",[],[],""],[_uniform2,[["ACE_fieldDressing",10],["ACE_EarPlugs",1],["ACE_MapTools",1],["ACE_morphine",2],["ACE_tourniquet",4],["ACE_Flashlight_MX991",1]]],[_vsetAssMchineGunner,[["ACE_EntrenchingTool",1],["hlc_30rnd_556x45_EPR_G36",8,30],["BWA3_15Rnd_9x19_P8",2,15],["BWA3_DM25",2,1],["BWA3_DM51A1",1,1]]],[_backpack4,[["hlc_100Rnd_762x51_T_MG3",4,100],["ACE_SpareBarrel",1,1]]],_headgear2,"",[],["","","","","ItemWatch",""]];
+        _unit setUnitLoadout [_mainWeapon,[],["BWA3_P8","","","",[],[],""],[_uniform2,[["ACE_fieldDressing",10],["ACE_EarPlugs",1],["ACE_MapTools",1],["ACE_morphine",2],["ACE_tourniquet",4],["ACE_Flashlight_MX991",1]]],[_vsetAssMachineGunner,[["ACE_EntrenchingTool",1],["hlc_30rnd_556x45_EPR_G36",8,30],["BWA3_15Rnd_9x19_P8",2,15],["BWA3_DM25",2,1],["BWA3_DM51A1",1,1]]],[_backpack4,[["hlc_100Rnd_762x51_T_MG3",4,100],["ACE_SpareBarrel",1,1]]],_headgear2,"",[],["","","","","ItemWatch",""]];
     };
     // Rifleman MG5
     case ("mg5"): {

@@ -27,6 +27,7 @@ respawnDialog = 0;
 respawnOnStart = -1;
 enableDebugConsole[] = {"76561198019947565"};
 disabledAI = 1;
+showMap = 1;
 
 // Functions
 class CfgFunctions {
