@@ -136,7 +136,7 @@ switch (_unitLoadout) do {
     };
     // Rifleman PzF3
     case ("pzf"): {
-        _unit setUnitLoadout [_mainWeaponGre,["BWA3_PzF3","","","",["BWA3_PzF3_Tandem",1],[],""],["BWA3_P8","","","",[],[],""],[_uniform2,[["ACE_fieldDressing",10],["ACE_EarPlugs",1],["ACE_MapTools",1],["ACE_morphine",2],["ACE_tourniquet",4],["ACE_Flashlight_MX991",1]]],[_vestRifleman,[["ACE_EntrenchingTool",1],[_mainMag,8,30],["BWA3_15Rnd_9x19_P8",2,15],["BWA3_DM25",2,1],["BWA3_DM51A1",1,1]]],[_backpack2,[]],_headgear2,"",[],["","","","","ItemWatch",""]];
+        _unit setUnitLoadout [_mainWeapon,["BWA3_PzF3","","","",["BWA3_PzF3_Tandem",1],[],""],["BWA3_P8","","","",[],[],""],[_uniform2,[["ACE_fieldDressing",10],["ACE_EarPlugs",1],["ACE_MapTools",1],["ACE_morphine",2],["ACE_tourniquet",4],["ACE_Flashlight_MX991",1]]],[_vestRifleman,[["ACE_EntrenchingTool",1],[_mainMag,8,30],["BWA3_15Rnd_9x19_P8",2,15],["BWA3_DM25",2,1],["BWA3_DM51A1",1,1]]],[_backpack2,[]],_headgear2,"",[],["","","","","ItemWatch",""]];
     };
     // Rifleman Eod
     case ("eod"): {
@@ -152,7 +152,7 @@ switch (_unitLoadout) do {
     };
     // Rifleman MG1
     case ("mg1"): {
-        _unit setUnitLoadout [["hlc_lmg_MG3","","","",[],[],""],[],["BWA3_P8","","","",[],[],""],[_uniform2,[["ACE_fieldDressing",10],["ACE_EarPlugs",1],["ACE_MapTools",1],["ACE_morphine",2],["ACE_tourniquet",4],["ACE_Flashlight_MX991",1]]],[_vestMachineGunner,[["ACE_EntrenchingTool",1],["BWA3_15Rnd_9x19_P8",2,15],["BWA3_DM25",2,1],["BWA3_DM51A1",1,1],["1Rnd_HE_Grenade_shell",2,1],["hlc_100Rnd_762x51_T_MG3",2,100]]],[_backpack4,[["hlc_100Rnd_762x51_T_MG3",3,100]]],_headgear2,"",[],["","","","","ItemWatch",""]];
+        _unit setUnitLoadout [["hlc_lmg_MG3","","","",[],[],""],[],["BWA3_P8","","","",[],[],""],[_uniform2,[["ACE_fieldDressing",10],["ACE_EarPlugs",1],["ACE_MapTools",1],["ACE_morphine",2],["ACE_tourniquet",4],["ACE_Flashlight_MX991",1]]],[_vestMachineGunner,[["ACE_EntrenchingTool",1],["BWA3_15Rnd_9x19_P8",2,15],["BWA3_DM25",2,1],["BWA3_DM51A1",1,1],["hlc_100Rnd_762x51_T_MG3",2,100]]],[_backpack4,[["hlc_100Rnd_762x51_T_MG3",3,100]]],_headgear2,"",[],["","","","","ItemWatch",""]];
     };
     // Rifleman MG2
     case ("mg2"): {
