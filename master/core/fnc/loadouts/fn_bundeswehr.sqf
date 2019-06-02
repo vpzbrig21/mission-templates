@@ -16,15 +16,6 @@
  * Public: [Yes/No]
  */
 
-/*
-_unit = param [0, player];
-_unitLoadout = param [2, "rfl"];
-_unitRank = param [3, 0];
-_medLevel = param [4, 0];
-_engLevel = param [5, 0];
-_eodLevel = param [6, false];
-*/
-
 params [
     ["_unit", objNull],
     ["_unitLoadout", "rfl"],

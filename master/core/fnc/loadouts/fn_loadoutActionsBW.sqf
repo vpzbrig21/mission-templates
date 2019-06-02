@@ -16,8 +16,6 @@
  * Public: [Yes/No]
  */
 
-_object = param [0, objNull];
-
 params [
     ["_object", objNull],
     ["_camoType",0],
