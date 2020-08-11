@@ -1,0 +1,19 @@
+/*
+    File: description.ext
+    https://community.bistudio.com/wiki/Description.ext
+    Author: Soro
+*/
+
+class Header {
+    gameType    = Coop;
+    minPlayers  = 1;
+    maxPlayers  = 100;
+};
+
+author			= "vPzBrig21";
+OnLoadName		= "OP: Flinker Wiesel";
+OnLoadMission	= "Eine Jägergruppe führt eine Aufklärung mit Kampfauftrag hinter feindlichen Linien durch.";
+loadScreen		= "src\img\loadScreen.paa";
+
+#include "inc\cfgFunctions.hpp"
+#include "inc\missionParameters.hpp"

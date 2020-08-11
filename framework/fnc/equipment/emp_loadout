@@ -1,0 +1,33 @@
+empty loadout
+[
+	["", "", "", "", ["",0], ["",0], ""],
+	["", "", "", "", ["",0], ["",0], ""],
+	["", "", "", "", ["",0], ["",0], ""],
+	["", []],
+	["", []],
+	["", []],
+	"", 
+	"",
+	["", "", "", "", ["",0], ["",0], ""],
+	[]
+]
+
+/*
+Waffen: ["Waffe", "Dämpfer", "Seiten-Rail", "Optik", ["magazin-prim", (int) Kugeln], ["magazin-sek", (int) kugeln], "Zweibein"]
+Uniform und co.: ["uniform/weste/rucksack", [ ["item", (int) anzahl],[..],..] ]
+Magazine: ["Magazin", (int) mumpeln, (int) anzahl magazine]
+
+Aufbau Loadout:
+[
+	[PrimärWaffe],
+	[Werfer],
+	[Pistolen],
+	[Uniform],
+	[Weste],
+	[Rucksack],
+	Helm, Gesicht,
+	[Fernglas], //als Waffenarray
+	[Items] //map, gps usw.
+]
+
+*/
