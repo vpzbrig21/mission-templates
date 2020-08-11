@@ -1,0 +1,62 @@
+/*
+    Author: Soro
+    File: description.ext
+    Unit: virtuelle Panzerbrigade 21
+    URL: https://vpzbrig21.de
+    License: APL-SA
+*/
+
+// Header
+class Header {
+    gameType = Sandbox;
+    minPlayers = 1;
+    maxPlayers = 99;
+};
+
+// Base informations
+author          = "Soro";
+onLoadName      = "Template Mission";
+onLoadMission   = "This is a base Template for mission design";
+loadScreen      = "core\img\loadScreen.paa";
+briefingName    = "Template Mission";
+
+// Base settings
+respawn = 3;
+respawnDelay = 10;
+respawnDialog = 0;
+respawnOnStart = -1;
+enableDebugConsole[] = {"76561198019947565"};
+disabledAI = 1;
+showMap = 1;
+
+// Functions
+class CfgFunctions {
+    class pb21 {
+        class loadouts {
+            file = "core\fnc\loadouts"
+            class bundeswehr{};
+            class loadoutActionsBW{};
+        };
+    };
+};
+
+class Params {
+    class Camotype {
+        title = "Uniform Art";
+		texts[] = {"Wald", "Wüste"};
+		values[] = {0, 1};
+		default = 0;
+    };
+    class BW_G36_Weapontype {
+        title = "G36 Version";
+		texts[] = {"BWMod G36A1", "BWMod G36A2", "BWMod G36A3", "NIA G36A1","NIA G36A3"};
+		values[] = {0,1,2,3,4};
+		default = 0;
+    };
+    class BW_ZF_Weapontype {
+        title = "ZF Gewehr";
+        texts[] = {"BWMod G28", "GM G3A1", "NIA G3SG1"};
+        values[] = {0,1,2};
+        default = 0;
+    };
+};
